@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         Log.i("Saad onCreate","1");
         super.onCreate(savedInstanceState);
         Log.i("Saad onCreate","2");
-
+//new file
         if(googleServicesAvailable()){
             Log.i("Saad oncreate","3");
             Toast.makeText(this, "Perfect", Toast.LENGTH_LONG).show();
